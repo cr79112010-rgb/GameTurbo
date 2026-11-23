@@ -4,7 +4,8 @@
         android:allowBackup="true"
         android:label="GameTurbo" 
         android:supportsRtl="true"
-        android:theme="@style/Theme.GameTurbo">
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
